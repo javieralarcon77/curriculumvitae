@@ -1,24 +1,24 @@
 import React from 'react';
 
-const About = () => (
+const About = ({ avatar, name, profession, bio, address, social }) => (
     <div className="About">
         <div className="About-container">
             <div className="About-avatar">
                 <figure>
-                    <img src="/" alt="/" />
+                    <img src="https://www.w3schools.com/w3images/avatar6.png" alt={ name } height="200"/>
                 </figure>
             </div>
             <div className="About-name">
-                <h2>Javier Alarcon</h2>
+                <h2>{ name }</h2>
             </div>
             <div className="About-profesion">
-                <p>FrontEnd Developer</p>
+                <p>{ profession }</p>
             </div>
             <div className="About-desc">
-                <p>Soy desarrollador web y me encanten los pugs</p>
+                <p>{ bio }</p>
             </div>
             <div className="About-location">
-                <p>Medellín - Colombia</p>
+                <p>{ address }</p>
             </div>
             <div className="About-social">
                 Social
