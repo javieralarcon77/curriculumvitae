@@ -1,6 +1,6 @@
 import React from 'react';
 
-const Certificates = () => {
+const Certificates = () => (
     <div className="Certificates">
         <div className="Certificates-container">
             <div className="Certificates-item">
@@ -9,6 +9,6 @@ const Certificates = () => {
             </div>
         </div>
     </div>
-}
+)
 
 export default Certificates;
