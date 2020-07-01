@@ -8,8 +8,8 @@ const Education = props => (
                 props.data.map( (edu , index ) => (
                     <div className="Eductacion-item" key={ `Edu-${index}` }>
                         <h3>
-                            { edu.degree } - { edu.institution }
-                            <span>{ edu.starDate } - { edu.endDate }</span>
+                            { edu.degree } - { edu.institution } | 
+                            <span>{ edu.startDate } - { edu.endDate }</span>
                         </h3>
                         <p>{ edu.description }</p>
                     </div>        
