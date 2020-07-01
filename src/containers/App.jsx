@@ -35,7 +35,9 @@ const App = () => {
                 <Certificates 
                     data = { data.certificate }
                 />
-                <Skills />
+                <Skills 
+                    data = { data.skills }
+                />
             </Info>
         </Main>
     );
