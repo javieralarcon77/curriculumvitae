@@ -11,9 +11,9 @@ import useGetData from '../hooks/useGetData';
 
 const App = () => {
     const data = useGetData();
-    //console.log(data);
+    console.log(data);
 
-    return (
+    return data.length === 0 ? <h1> Cargando</h1> : (
         <Main>
             <Sidebar>
                 <About
@@ -26,7 +26,9 @@ const App = () => {
                 ></About>
             </Sidebar>
             <Info>
-                <Education />
+                <Education 
+                    data = { data.education }
+                />
                 <Experience />
                 <Certificates />
                 <Skills />
