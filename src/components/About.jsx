@@ -63,15 +63,15 @@ const About = ({ avatar, name, profession, bio, address, social }) => (
             <AboutName>
                 <AboutH2>{ name }</AboutH2>
             </AboutName>
-            <AboutProfession>
-                <p>{ profession }</p>
-            </AboutProfession>
-            <AboutBio>
-                <p>{ bio }</p>
-            </AboutBio>
-            <AboutLocation>
-                <p>{ address }</p>
-            </AboutLocation>
+            <div className="About-profesion">
+                <AboutProfession> { profession } </AboutProfession>
+            </div>
+            <div className="About-bio">
+                <AboutBio>{ bio }</AboutBio>
+            </div>
+            <div className="About-location">
+                <AboutLocation>{ address }</AboutLocation>
+            </div>
             <div className="About-social">
                 <Social
                     social = { social }
