@@ -6,7 +6,7 @@ const useGetData = () =>{
     const [ mydata, setData ] = useState([]);
 
     useEffect(()=>{
-        fetch(api)
+        fetch('./public/data/datos.json')
             .then(response => response.json() )
             .then(data => setData(data) )
     }, []);

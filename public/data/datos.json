@@ -1,0 +1,96 @@
+{
+    "name": "Javier Alarcon",
+    "profession": "Desarrollador FrontEnd",
+    "address": "Medellin, Colombia.",
+    "avatar": "https://avatars3.githubusercontent.com/u/40215381?s=460&u=815e191700722b07981c12cd7be3a8980ce3fcd4&v=4",
+    "bio": "Ignore the squirrels, you'll never catch them anyway hack, for floof tum, tickle bum, jellybean footies curly toes climb leg roll over and sun my belly, ",
+    "certificate": [
+        {
+            "date": "Julio 2020",
+            "description": "Desarrollar aplicaciones para moviles ios y android utilizando el framwork de flutter",
+            "institution": "Udemy",
+            "name": "Desarrollador Flutter"
+        }
+    ],
+    "education": [
+        {
+            "degree": "Ingrenieria Informatica",
+            "description": "7mo Semestre",
+            "endDate": "Julio 2012",
+            "institution": "UNET (Venezuela)",
+            "startDate": "Septiembre 2008"
+        }
+    ],
+    "experience": [
+        {
+            "company": "LIMA S.A.S.",
+            "jobDescription": "Estuve a cargo del desarrollo y despliegue de una aplicación móvil hibrida, para diversos procesos de la empresa. Al igual que la implementación de un sistema web para administrar la aplicación",
+            "jobTitle": "Desarrollador Móvil - WEB",
+            "startDate": "Julio 2019",
+            "endDate": "Presente"            
+        },
+        {
+            "company": "Especificalo.com",
+            "jobDescription": "Actualmente estoy a cargo de la parte tecnológica de un emprendimiento propio, soy el encargado de la creación y antenimiento de la página web y la aplicación móvil.",
+            "jobTitle": "CTO",
+            "startDate": "Enero 2017",
+            "endDate": "Presente"            
+        },
+        {
+            "company": "Cronos Web",
+            "jobDescription": "Desarrolle diversas páginas web en wordpress para los clientes de la empresa, de igual manera realice labores de mantenimiento y mejoramiento para las páginas ya realizadas anteriormente.",
+            "jobTitle": "Desarrollador WEB",
+            "startDate": "Julio 2018",
+            "endDate": "Mayo 2019"            
+        }
+    ],
+    "skills": [
+        {
+            "name": "JavaScript",
+            "percentage": "80%"
+        },
+        {
+            "name": "PHP",
+            "percentage": "85%"
+        },
+        {
+            "name": "HTML5",
+            "percentage": "75%"
+        },
+        {
+            "name": "CSS",
+            "percentage": "55%"
+        },
+        {
+            "name": "Angular",
+            "percentage": "80%"
+        },
+        {
+            "name": "Ionic",
+            "percentage": "75%"
+        },
+        {
+            "name": "Flutter",
+            "percentage": "80%"
+        }
+    ],
+    "social": [
+        {
+            "name": "facebook",
+            "url": "https://www.facebook.com/Javier1Piece"
+        },
+        {
+            "name": "twitter",
+            "url": "https://twitter.com/jage_1991"
+        },
+        {
+            "name": "github",
+            "url": "https://github.com/javieralarcon77"
+        },
+        {
+            "name": "linkedin",
+            "url": "https://linkedin.com/in/javier-alarcon-desarrollador-web/"
+            
+        }
+    ]
+}

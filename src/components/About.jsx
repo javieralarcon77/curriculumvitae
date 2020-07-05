@@ -2,6 +2,7 @@ import React from 'react';
 import styled from 'styled-components';
 
 import Social from './Social';
+import colors from '../styled/Colors';
 
 const AboutStyle = styled.div`
     text-align:center;
@@ -15,7 +16,7 @@ const AboutImg = styled.img`
     border-radius: 100%;
     width: 160px;
     height: 160px;
-    border: 2px solid #E91E63;
+    border: 2px solid ${ colors.primary };
     margin: 0 auto;
     display: block;
     box-shadow: 0 0 10px rgba(0,0,0,0.6);
@@ -30,14 +31,14 @@ const AboutH2 = styled.h2`
     font-weight: 400;
     letter-spacing: 1.2px;
     margin: .5em 0 0 0;
-    color: #C2185B;
+    color: ${ colors.primary };
 `;
 
 const AboutProfession = styled.p`
   margin: .2em 0 1em 0;
   letter-spacing: 1.6px;
   font-weight: 300;
-  color: #C2185B;
+  color: ${ colors.primary };
 `;
 
 const AboutBio = styled.p`
@@ -57,7 +58,7 @@ const About = ({ avatar, name, profession, bio, address, social }) => (
         <div className="About-container">
             <AboutAvatar>
                 <figure>
-                    <AboutImg src="https://www.w3schools.com/w3images/avatar6.png" alt={ name }/>
+                    <AboutImg src={ avatar } alt={ name }/>
                 </figure>
             </AboutAvatar>
             <AboutName>
