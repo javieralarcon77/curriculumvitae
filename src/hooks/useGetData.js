@@ -1,4 +1,5 @@
 import { useState, useEffect } from 'react';
+import data from './datos.json';
 
 const api = 'https://us-central1-gndx-cv.cloudfunctions.net/me';
 
@@ -6,9 +7,7 @@ const useGetData = () =>{
     const [ mydata, setData ] = useState([]);
 
     useEffect(()=>{
-        fetch('./public/data/datos.json')
-            .then(response => response.json() )
-            .then(data => setData(data) )
+        setData(data);
     }, []);
 
     return mydata;
