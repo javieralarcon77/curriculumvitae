@@ -46,6 +46,14 @@
     ],
     "skills": [
         {
+            "name": "Java",
+            "percentage": "85%"
+        },
+        {
+            "name": "Spring Framework",
+            "percentage": "70%"
+        },
+        {
             "name": "JavaScript",
             "percentage": "80%"
         },
@@ -72,6 +80,18 @@
         {
             "name": "Flutter",
             "percentage": "80%"
+        },
+        {
+            "name": "Postgres Sql",
+            "percentage": "70%"
+        },
+        {
+            "name": "Mysql",
+            "percentage": "80%"
+        },
+        {
+            "name": "Mongo DB",
+            "percentage": "50%"
         }
     ],
     "social": [
