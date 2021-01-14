@@ -12,11 +12,12 @@ script:
 deploy:
   name: Elmo@gremlim
   provider: pages
-  skip-cleanup: true
-  keep-history: true
-  github-token: $GITHUB_TOKEN
-  local-dir: dist/
-  target-branch: master
+  cleanup: true
+  strategy: git
+  keep_history: true
+  token: $GITHUB_TOKEN
+  local_dir: dist/
+  target_branch: master
   commit_message: "Elmo@gremlim - Deploy release ${TRAVIS_TAG}"
   #fqdn: cv.arepa.dev
   on:
