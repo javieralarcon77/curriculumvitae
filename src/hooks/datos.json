@@ -71,7 +71,15 @@
         },
         {
             "name": "Angular",
-            "percentage": "80%"
+            "percentage": "70%"
+        },
+        {
+            "name": "React",
+            "percentage": "70%"
+        },
+        {
+            "name": "Gatsby",
+            "percentage": "60%"
         },
         {
             "name": "Ionic",
@@ -79,7 +87,7 @@
         },
         {
             "name": "Flutter",
-            "percentage": "80%"
+            "percentage": "60%"
         },
         {
             "name": "Postgres Sql",
@@ -92,6 +100,10 @@
         {
             "name": "Mongo DB",
             "percentage": "50%"
+        },
+        {
+            "name": "GraphQL",
+            "percentage": "60%"
         }
     ],
     "social": [
