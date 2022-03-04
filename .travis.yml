@@ -3,11 +3,11 @@ cache:
   directories:
     - ~/.npm
 node_js:
-  - '12'
+  - "15"
 git:
   depth: 3
 script:
-  - yarn build
+  - npm run build
 #  - echo 'cv.arepa.dev' > public/CNAME
 deploy:
   name: Elmo@gremlim
