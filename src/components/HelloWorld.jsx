@@ -1,22 +1,19 @@
-import React, { useState } from 'react';
+import React, { useState } from "react";
 
 const HelloWorld = () => {
+  const [active, setActive] = useState(true);
 
-    const [ active, setActive ] = useState(true);
+  const handleClick = () => {
+    setActive(!active);
+  };
 
-    const handleClick = () => {
-        setActive(!active);
-    }
-
-    return (
-        <div>
-            <button onClick={handleClick}>Ocultar</button>
-            {active &&
-                <h1>Hola Mundo 2</h1>
-            }            
-        </div>
-    );
-}
+  return (
+    <div>
+      <button onClick={handleClick}>Ocultar</button>
+      {active && <h1>Hola Mundo 2</h1>}
+    </div>
+  );
+};
 
 export default HelloWorld;
 
@@ -28,7 +25,7 @@ export default HelloWorld;
 //         active: true,
 //     }
 
-//     handleClick = () => {  
+//     handleClick = () => {
 //         this.setState({
 //             active: !this.state.active,
 //         });
@@ -38,7 +35,7 @@ export default HelloWorld;
 //         return(
 //             <div>
 //                 <button onClick={ this.handleClick } >Ocultar</button>
-//                 { this.state.active && 
+//                 { this.state.active &&
 //                     <h1>Hola Mundo</h1>
 //                 }
 //             </div>
