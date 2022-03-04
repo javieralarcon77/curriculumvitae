@@ -13,6 +13,7 @@ deploy:
   name: Elmo@gremlim
   provider: pages
   strategy: git
+  skip_cleanup: true
   keep_history: true
   token: $GITHUB_TOKEN
   local_dir: dist/
@@ -21,5 +22,3 @@ deploy:
   #fqdn: cv.arepa.dev
   on:
     branch: develop
-after_deploy:
-  cleanup: true
